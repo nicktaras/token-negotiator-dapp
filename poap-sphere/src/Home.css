@@ -1,0 +1,38 @@
+.logo {
+    width: 62px;
+    position: absolute;
+    z-index: 1000;
+    right: 32px;
+    top: 32px;
+  }
+  
+.connect-container {
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 125px);
+}
+
+.connect-container button {    
+    width: 250px;    
+    height: 80px;    
+    background: rgba(255, 255, 255, 0.2);    
+    box-shadow: 0 0 60px 30px #fff, 0 0 89px 28px #F0E, 0 0 120px 66px #0EF;    
+    border-radius: 12px;    
+    background: white;    
+    color: #906dfe;    
+    transition: all 1s;}.connect-container button:hover {    
+    width: 250px;    
+    height: 80px;    
+    background: rgba(255, 255, 255, 0.2);    
+    box-shadow: 0 0 60px 30px #fff, 0 0 30px 28px #F0E, 0 0 120px 66px #0EF;
+    border-radius: 12px;    
+    background: white;    
+    color: #906dfe;    
+    transition: all 2s;    
+    opacity: 1;
+}
+
+.fadeOut {    
+    opacity: 0;    
+    transition: all 2s;
+}

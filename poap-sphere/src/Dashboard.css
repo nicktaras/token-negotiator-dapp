@@ -1,0 +1,16 @@
+.logo {
+    width: 62px;
+    position: absolute;
+    z-index: 1000;
+    right: 32px;
+    top: 32px;
+  }
+.info-container { position: absolute; top: calc(50% - 200px); left: calc(50% - 125px); z-index: 1000; }
+.info-container-inner {  position: relative;  width: 250px;  height: 400px;  background: white;  border-radius: 6px;  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 14%), 0 3px 3px 0 rgb(0 0 0 / 7%);  border: 1px solid #fccdd2;}
+.info-container-img {  position: relative;  top: -60px;  width: 150px;  left: 50px;  border-radius: 100px;  border: 1px solid rgb(181 54 181 / 20%);}
+.info-container-copy {  position: relative;  top: -48px;  padding: 0 28px;  color:#646464;}
+.info-container-title {  text-align: center;  position: relative;  top: -48px;  padding: 8px 28px 2px 28px;  color:#646464;  text-transform: uppercase;}
+.info-container-close {  text-align: center;  color:#646464;  text-transform: uppercase;  position: absolute;  bottom: -9px;  right: -9px;  width: 30px;  border-radius: 20px;  background: white;}
+.info-container-negotiate {  margin: 4px 58px;  position: relative;  top: -7px;    text-align: center;  color:#646464;  font-size: 12px;  text-transform: uppercase;  border-radius: 1px;}
+.info-container {  transition: 0.7s all;}
+.info-container.close {  transition: 0.7s all;  top: 120%;}
